@@ -1,7 +1,7 @@
 #!/bin/sh
 
 git reset --hard HEAD
-git pull origin test/hexo
+git pull origin test/hexo --no-edit
 
 program_name=hexo-demo
 program_version=$(date "+%Y%m%d%H%M%S")
