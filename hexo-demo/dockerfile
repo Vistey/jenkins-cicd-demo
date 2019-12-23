@@ -1,0 +1,9 @@
+FROM node:lts-alpine3.11
+
+ADD . /app
+
+WORKDIR /app
+
+EXPOSE 4000
+
+CMD ["npm", "run", "server"]
