@@ -1,5 +1,7 @@
 #!/bin/sh
 
+git pull origin master
+
 program_name=hexo-demo
 program_version=$(date "+%Y%m%d%H%M%S")
 program_port=4000
