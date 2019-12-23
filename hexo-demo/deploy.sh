@@ -1,5 +1,6 @@
 #!/bin/sh
 
+git reset --hard HEAD
 git pull origin master
 
 program_name=hexo-demo
