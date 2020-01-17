@@ -1,7 +1,7 @@
 import { Selector } from 'testcafe';
 
-// fixture('Getting Started').page('http://192.168.56.102:9001/')
-fixture('Getting Started').page('http://localhost:8080/')
+fixture('Getting Started').page('http://192.168.56.102:9001/')
+// fixture('Getting Started').page('http://localhost:8080/')
 
 test('My first test', async t => {
     // Test code
